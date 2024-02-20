@@ -1,0 +1,1 @@
+This a folder for scripts that were used and generated while writing Liquibase Tutorial 2024

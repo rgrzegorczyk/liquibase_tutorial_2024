@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+                <includeAll path="/DATABASE/HR/SEQUENCE/"/>
+                <includeAll path="/DATABASE/HR/TABLE/"/>
+                <includeAll path="/DATABASE/HR/VIEW/"/>
+                <includeAll path="/DATABASE/HR/REF_CONSTRAINT/"/>
+
+                <include file="/DATABASE/HR/PROCEDURE/procedure_order.xml"/> 
+
+                <includeAll path="/DATABASE/HR/INDEX/"/>
+                <includeAll path="/DATABASE/HR/TRIGGER/"/>
+                <includeAll path="/DATABASE/HR/COMMENT/"/>
+</databaseChangeLog> 
+
+
+
+
+
