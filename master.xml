@@ -12,6 +12,10 @@
 
                 <include file="/DATABASE/HR/PROCEDURE/procedure_order.xml"/> 
 
+                <includeAll path="/DATABASE/HR/PACKAGE_SPEC/"/>
+                <includeAll path="/DATABASE/HR/PACKAGE_BODY/"/>
+
+
                 <includeAll path="/DATABASE/HR/INDEX/"/>
                 <includeAll path="/DATABASE/HR/TRIGGER/"/>
                 <includeAll path="/DATABASE/HR/COMMENT/"/>
