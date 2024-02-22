@@ -5,20 +5,22 @@
         xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+                <include file="/PRE_SCRIPTS/pre_scripts_order.xml"/> 
+
                 <includeAll path="/DATABASE/HR/SEQUENCE/"/>
                 <includeAll path="/DATABASE/HR/TABLE/"/>
                 <includeAll path="/DATABASE/HR/VIEW/"/>
                 <includeAll path="/DATABASE/HR/REF_CONSTRAINT/"/>
-
                 <include file="/DATABASE/HR/PROCEDURE/procedure_order.xml"/> 
-
                 <includeAll path="/DATABASE/HR/PACKAGE_SPEC/"/>
                 <includeAll path="/DATABASE/HR/PACKAGE_BODY/"/>
-
-
                 <includeAll path="/DATABASE/HR/INDEX/"/>
                 <includeAll path="/DATABASE/HR/TRIGGER/"/>
                 <includeAll path="/DATABASE/HR/COMMENT/"/>
+                
+                <include file="/POST_SCRIPTS/post_scripts_order.xml"/> 
+
 </databaseChangeLog> 
 
 
